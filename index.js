@@ -22,9 +22,9 @@ function deepestChild(){
     .getElementById('app')
     .querySelectorAll('div.grand-node div');
     
-  console.log('DIVS VARIABLE: '+divs[divs.length].innerHTML)
+  //console.log('DIVS VARIABLE: '+divs[divs.length].innerHTML)
   
- // return divs[divs.length-1].innerHTML.toString();
+  return divs[divs.length-1].innerHTML;
 }
 
 
