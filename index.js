@@ -22,6 +22,8 @@ function deepestChild(){
     .getElementById('app')
     .querySelectorAll('div.grand-node div');
     
+cosole.log("DIVS: "+divs)
+    
   var lastResult
     
   for (var i=0; i<divs.length; i++){
