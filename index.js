@@ -22,7 +22,7 @@ function deepestChild(){
     .getElementById('app')
     .querySelectorAll('div.grand-node div');
     
-cosole.log("DIVS: "+divs)
+console.log("DIVS: "+divs)
     
   var lastResult
     
