@@ -21,9 +21,11 @@ function deepestChild(){
   const divs = document
     .getElementById('app')
     .querySelectorAll('div.grand-node div');
-    
+    var results = [];
   //console.log('DIVS VARIABLE: '+divs[divs.length].innerHTML)
-  
+  for(var i=0; i<divs.length; i+){
+    
+  }
   return divs[divs.length-1].innerHTML;
 }
 
