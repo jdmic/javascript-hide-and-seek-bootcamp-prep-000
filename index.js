@@ -25,7 +25,7 @@ function deepestChild(){
   var lastResult
     
   for (var i=0; i<divs.length; i++){
-    result=divs[i]
+    lastResult=divs[i]
   }
   
   return lastResult;
