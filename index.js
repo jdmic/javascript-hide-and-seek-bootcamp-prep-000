@@ -22,14 +22,13 @@ function deepestChild(){
     .getElementById('app')
     .querySelectorAll('div.grand-node div');
     
-  var result
-  //var lastResult = results[results.length-1];
+  var lastResult
     
   for (var i=0; i<divs.length; i++){
     result=divs[i]
   }
   
-  return result;
+  return lastResult;
 }
 
 
