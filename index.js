@@ -24,7 +24,7 @@ function deepestChild(){
     
   //console.log('DIVS VARIABLE: '+divs[divs.length].innerHTML)
   
-  return divs[divs.length-1];
+  return divs[divs.length-1].innerHTML;
 }
 
 
